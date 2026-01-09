@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/TAP/(.*)",
+      "destination": "https://exoplanetarchive.ipac.caltech.edu/TAP/$1"
+    },
+    {
       "source": "/assets/(.*)",
       "destination": "/assets/$1"
     },
