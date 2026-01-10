@@ -31,8 +31,11 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Fix for client-side routing
-  base: "/",
+  /**
+   * UPDATED: Changed from "/" to your repository name.
+   * This is required for GitHub Pages to find your assets.
+   */
+  base: "/NASA---Exoplanets/",
   // Enable source maps for better debugging
   build: {
     sourcemap: true,
