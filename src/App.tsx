@@ -18,7 +18,8 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/">
+        {/* UPDATED: basename changed from "/" to your repo name */}
+        <BrowserRouter basename="/NASA---Exoplanets/">
           <Routes>
             <Route path="/" element={<MLAnalysis />} />
             <Route path="/index" element={<Index />} />
